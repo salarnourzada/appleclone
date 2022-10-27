@@ -240,8 +240,6 @@
   margin-left: -1.5rem;
 }
 
-#ipad-pro {
-}
 .ipad-pro {
   width: 70%;
   margin-top: 0rem;
@@ -276,4 +274,56 @@
 }
 #content-links.ipad-pro-links {
   margin-left: 0rem;
+}
+#last-split {
+  display: flex;
+  margin-top: 0.7rem;
+  background-color: rgb(245, 245, 244);
+}
+.tv {
+  margin-top: 6rem;
+}
+.tv-img {
+  position: absolute;
+  width: 50%;
+}
+#content.tv-content {
+  margin-top: -4rem;
+  margin-left: 15rem;
+}
+#title.tv-title {
+  margin-left: 3rem;
+  margin-bottom: -1rem;
+}
+#slogan.tv-slogan {
+  margin-bottom: -0.5rem;
+}
+#date.tv-date {
+  margin-bottom: 0.7rem;
+}
+#content-links.tv-links {
+  margin-left: -1.5rem;
+}
+.card {
+  z-index: 1;
+  margin-top: 0rem;
+  margin-left: 60rem;
+  width: 70%;
+  background-color: rgb(251, 251, 250);
+}
+.card-img {
+  margin-top: 5rem;
+  margin-left: -1rem;
+  width: 80%;
+  height: 27rem;
+  margin-top: 6.1rem;
+  margin-left: 8rem;
+}
+#content.card-content {
+  position: absolute;
+  margin-top: -32rem;
+  margin-left: 17rem;
+}
+#title.card-title {
+  margin-left: 2rem;
 }
