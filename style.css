@@ -339,10 +339,12 @@
   line-height: 1rem;
   flex-direction: column;
   width: 85rem;
+  margin-bottom: 1rem;
   margin-left: 20rem;
-  padding-left: 7rem;
-  padding-right: 7rem;
   padding-top: 2rem;
+  padding-right: 7rem;
+  padding-bottom: 2rem;
+  padding-left: 7rem;
   border-bottom: 1px solid gray;
 }
 .footer-p {
@@ -366,4 +368,89 @@
 .footer-li {
   list-style: none;
   line-height: 1.7rem;
+  cursor: pointer;
+}
+.footer-li:hover {
+  border-bottom: 1px gray solid;
+}
+@media screen and (max-width: 1440px) {
+  .ipad {
+    margin-top: 2rem;
+  }
+  .ipad-img {
+    height: 43rem;
+  }
+  #content.iphone-pro-content {
+    margin-left: 31rem;
+  }
+  #content.fitness-content {
+    margin-left: 15rem;
+  }
+  #watch {
+    height: 25rem;
+    margin-left: -17rem;
+  }
+  #watch-img {
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: 14rem;
+  }
+  #content.watch-content {
+    margin-left: 23rem;
+  }
+  .watch-series-img {
+    margin-top: 11rem;
+    margin-left: 0rem;
+  }
+  #content.watch-series-content {
+    margin-top: -27rem;
+    margin-left: 8.5rem;
+  }
+  .iphone {
+    margin-left: -17rem;
+  }
+  .iphone-img {
+    margin-top: 5.4rem;
+    margin-left: 10rem;
+    width: 50rem;
+  }
+  #content.iphone-content {
+    margin-left: 21.5rem;
+  }
+
+  .ipad-pro-img {
+    width: 100%;
+    margin-left: 0rem;
+  }
+  #content.ipad-pro-content {
+    margin-top: -32rem;
+    margin-left: 7.5rem;
+  }
+  .tv {
+    margin-top: 6rem;
+    margin-left: -12rem;
+  }
+  .tv-img {
+    margin-left: 10rem;
+  }
+  #content.tv-content {
+    margin-top: -6rem;
+    margin-left: 19rem;
+  }
+  .card {
+    margin-top: 0rem;
+    margin-left: 55rem;
+    width: 100%;
+  }
+  .card-img {
+    height: 20rem;
+    margin-top: 6.1rem;
+  }
+  #content.card-content {
+    margin-top: -27rem;
+    margin-left: 13rem;
+  }
+  .first-footer {
+    margin-left: 2.5rem;
+  }
 }
