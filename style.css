@@ -327,3 +327,43 @@
 #title.card-title {
   margin-left: 2rem;
 }
+.footer {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 2rem;
+  background-color: rgb(245, 245, 244);
+}
+.first-footer {
+  display: flex;
+  text-align: left;
+  line-height: 1rem;
+  flex-direction: column;
+  width: 85rem;
+  margin-left: 20rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 2rem;
+  border-bottom: 1px solid gray;
+}
+.footer-p {
+  padding: 0.7rem;
+}
+.second-footer {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.footer-ul {
+  padding-top: 1rem;
+}
+.footer-h {
+  padding-bottom: 0.7rem;
+}
+.footer-h-column {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+.footer-li {
+  list-style: none;
+  line-height: 1.7rem;
+}
