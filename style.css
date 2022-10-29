@@ -305,15 +305,14 @@
   margin-left: -1.5rem;
 }
 .card {
-  z-index: 1;
   margin-top: 0rem;
   margin-left: 60rem;
-  width: 70%;
+  width: 60rem;
   background-color: rgb(251, 251, 250);
 }
 .card-img {
   margin-top: 5rem;
-  margin-left: -1rem;
+  margin-left: -10rem;
   width: 80%;
   height: 27rem;
   margin-top: 6.1rem;
@@ -452,5 +451,120 @@
   }
   .first-footer {
     margin-left: 2.5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .navbar {
+    width: 100%;
+  }
+  .logo {
+    margin-left: -1rem;
+  }
+  .list {
+    gap: 1rem;
+    margin-left: 2rem;
+    width: 99.5%;
+  }
+  .search {
+    margin-left: 0rem;
+  }
+  .cart {
+    margin-left: 1.5rem;
+  }
+  .ipad {
+    margin-top: 2rem;
+  }
+  .ipad-img {
+    width: 40rem;
+    height: 40rem;
+    margin-right: -2rem;
+  }
+  #content.iphone-pro-content {
+    margin-left: 17.5rem;
+  }
+  #content.fitness-content {
+    margin-left: 2rem;
+  }
+  #watch {
+    height: 22rem;
+    margin-left: -28rem;
+  }
+  #watch-img {
+    width: 35rem;
+    position: absolute;
+    margin-top: 5.9rem;
+    margin-left: 25rem;
+  }
+  #content.watch-content {
+    margin-left: 28.5rem;
+  }
+  .watch-series-img {
+    margin-top: 12rem;
+    margin-left: 0rem;
+  }
+  #content.watch-series-content {
+    margin-top: -23.5rem;
+    margin-left: 1.5rem;
+  }
+  .iphone {
+    height: 22rem;
+    margin-left: -28rem;
+  }
+  .iphone-img {
+    height: 22rem;
+    margin-top: 1.5rem;
+    margin-left: 17rem;
+    width: 43rem;
+  }
+  #content.iphone-content {
+    margin-left: 24.7rem;
+  }
+
+  .ipad-pro-img {
+    width: 30rem;
+    height: 22rem;
+    margin-left: 1rem;
+  }
+  #content.ipad-pro-content {
+    margin-top: -28rem;
+    margin-left: 0.5rem;
+  }
+  .tv {
+    height: 22rem;
+    margin-top: 6rem;
+    margin-left: -28rem;
+  }
+  .tv-img {
+    width: 35rem;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-left: 25rem;
+  }
+  #content.tv-content {
+    margin-top: -5rem;
+    margin-left: 29.5rem;
+  }
+  .card {
+    height: 100%;
+    margin-top: 0rem;
+    margin-left: 60rem;
+  }
+  .card-img {
+    height: 22rem;
+    margin-left: 0rem;
+    margin-top: 6.1rem;
+  }
+  #content.card-content {
+    margin-top: -27rem;
+    margin-left: 3rem;
+  }
+  .first-footer {
+    width: 60rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    margin-left: 1rem;
+  }
+  .second-footer {
+    gap: 2rem;
   }
 }
