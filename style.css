@@ -574,3 +574,219 @@
     gap: 2rem;
   }
 }
+@media screen and (max-width: 375px) {
+  .links {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+  .logo {
+    margin-left: 9rem;
+  }
+  .cart {
+    position: absolute;
+    left: 85%;
+  }
+  .ipad {
+    display: block;
+  }
+  .ipad-img {
+    width: 50%;
+    height: 20rem;
+    margin-top: 12rem;
+    margin-bottom: 1rem;
+    margin-left: 14rem;
+  }
+  #content.ipad-content {
+    padding: 0;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 4rem;
+    margin-left: -3rem;
+  }
+  #title.ipad-title {
+    margin-left: 3rem;
+  }
+  #date.ipad-date {
+    display: none;
+  }
+  .fullscreen {
+    background-color: black;
+  }
+  .iphone-pro-img {
+    background-color: black;
+    margin-top: 1rem;
+    position: absolute;
+    display: block;
+    content: url(./apple\ page\ images/hero_iphone14pro__e5xbgo5ffhg2_small.jpg);
+    object-fit: cover;
+  }
+  #content.iphone-pro-content.real {
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: -3rem;
+    width: 100%;
+  }
+  #title {
+    font-size: 45px;
+  }
+  #title.iphone-pro-title {
+    margin-left: 5rem;
+  }
+  #slogan.iphone-pro-slogan.real {
+    margin-left: 1.55rem;
+  }
+  #content-links.iphone-pro-links {
+    margin-left: -2rem;
+  }
+  .fitness-div {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+
+  #new-pr {
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-top: 70rem;
+    width: 22.5rem;
+  }
+  .iphone {
+    width: 100%;
+  }
+  .iphone-img {
+    width: 100%;
+    margin-left: 28rem;
+    object-fit: cover;
+  }
+  #content.iphone-content {
+    margin-top: -3rem;
+    margin-left: 25.5rem;
+  }
+
+  .ipad-pro {
+    margin-left: 0rem;
+    width: 22.5rem;
+  }
+  .ipad-pro-img {
+    width: 100%;
+    margin-top: 8rem;
+    margin-left: 0rem;
+    object-fit: cover;
+  }
+  #content.ipad-pro-content {
+    margin-top: -27rem;
+    margin-left: -4.5rem;
+  }
+  #slogan.ipad-pro-slogan {
+    font-size: 27px;
+  }
+  #date.ipad-pro-date {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+  .m2 {
+    margin-left: 7.5rem;
+  }
+  #links {
+    font-size: 20px;
+  }
+  #last-split {
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-top: 128rem;
+    width: 22.5rem;
+  }
+  .tv-img {
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 28rem;
+    object-fit: cover;
+  }
+  #content.tv-content {
+    margin-left: 25.7rem;
+  }
+  .card {
+    position: relative;
+    margin-left: 0rem;
+    width: 22.5rem;
+  }
+  .card-img {
+    width: 100%;
+    margin-top: 8rem;
+    margin-left: 0rem;
+    object-fit: cover;
+  }
+  #content.card-content {
+    margin-left: -3rem;
+  }
+  #slogan.card-slogan {
+    font-size: 24px;
+  }
+  #Watches {
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-top: 187rem;
+    width: 22.5rem;
+    overflow: hidden;
+  }
+  #watch-img {
+    position: absolute;
+    width: 100%;
+    margin-top: 8rem;
+    margin-right: 0;
+    margin-left: 19rem;
+    margin-bottom: 0;
+    transform: scale(3.5);
+    object-fit: cover;
+  }
+  #content.watch-ultra-content {
+    margin-left: 25rem;
+  }
+  #watch-series {
+    position: relative;
+    margin-left: 0rem;
+    width: 22.5rem;
+    margin-top: 10rem;
+  }
+  #watch-series-8 {
+    padding-top: 10rem;
+  }
+  #watch-series-img {
+    width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 7.5rem;
+    margin-left: 0rem;
+    transform: scale(2.5);
+    object-fit: cover;
+  }
+  #content.watch-series-content {
+    margin-top: -33rem;
+    margin-left: -2rem;
+  }
+  .footer {
+    position: absolute;
+    top: 100%;
+    margin-top: 211rem;
+    width: 22.5rem;
+  }
+  .first-footer {
+    width: 99%;
+    margin-left: 0rem;
+    padding: 0;
+  }
+  .second-footer {
+    gap: 0rem;
+  }
+  .footer-ul {
+    width: 100%;
+  }
+  .footer-p {
+    padding: 0;
+  }
+}
