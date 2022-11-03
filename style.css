@@ -759,28 +759,38 @@
   }
   #watch-series-img {
     width: 100%;
-    margin-top: 8rem;
+    margin-top: 0rem;
     margin-bottom: 7.5rem;
     margin-left: 0rem;
     transform: scale(2.5);
     object-fit: cover;
   }
   #content.watch-series-content {
-    margin-top: -33rem;
+    margin-top: -27rem;
     margin-left: -2rem;
   }
   .footer {
     position: absolute;
     top: 100%;
     margin-top: 211rem;
+    margin-right: 0.5rem;
     width: 22.5rem;
   }
+  .one {
+    display: none;
+  }
   .first-footer {
-    width: 99%;
-    margin-left: 0rem;
-    padding: 0;
+    /* visibility: hidden;
+    opacity: 0;
+    display: none; */
+    width: 97%;
+    font-size: 12px;
+    margin-left: 0.35rem;
   }
   .second-footer {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
     gap: 0rem;
   }
   .footer-ul {
@@ -789,4 +799,60 @@
   .footer-p {
     padding: 0;
   }
+}
+#mobile-footer {
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+#foot-nav {
+  transition: all 1s ease;
+  display: block;
+  padding-left: 1rem;
+  line-height: 1.3rem;
+  list-style: none;
+  width: 100%;
+  border-bottom: 1.5px gray solid;
+}
+h4 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.hide-shop {
+  display: none;
+  transition: all 1s ease;
+}
+.services-h {
+  margin-top: 0.5rem;
+}
+.account-h {
+  margin-top: 0.5rem;
+}
+.store-h {
+  margin-top: 0.5rem;
+}
+.buss-h {
+  margin-top: 0.5rem;
+}
+#last-footer {
+  font-size: 15px;
+  margin-left: 1rem;
+}
+.copy {
+}
+#copy-date {
+  display: flex;
+  justify-content: center;
+}
+#copy-link {
+  display: flex;
+  justify-content: center;
+}
+.foot-link {
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 1rem;
 }
