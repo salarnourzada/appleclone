@@ -417,7 +417,35 @@
 .footer-links:hover {
   text-decoration: underline;
 }
-
+#mobile-footer {
+  display: none;
+}
+#last-footer {
+  border-top: 1px gray solid;
+  margin-top: 1rem;
+  margin-left: 25rem;
+  padding-top: 1rem;
+  padding-left: 25rem;
+  width: 70rem;
+  font-size: 18px;
+}
+.copy {
+  margin-bottom: 0.5rem;
+}
+#copy-date {
+  margin-left: 10rem;
+  margin-bottom: 0.5rem;
+}
+#copy-link {
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+}
+.foot-link {
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 1rem;
+  border-bottom: 1px rgb(182, 182, 182) solid;
+}
 @media screen and (max-width: 1440px) {
   .ipad {
     margin-top: 2rem;
@@ -842,100 +870,108 @@
   .footer-p {
     padding: 0;
   }
-}
-#mobile-footer {
-  margin-right: 0.5rem;
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
-}
-
-#foot-nav {
-  display: block;
-  padding-left: 1rem;
-  line-height: 1.3rem;
-  list-style: none;
-  width: 100%;
-  border-bottom: 1.5px gray solid;
-}
-h4 {
-  display: flex;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-  cursor: pointer;
-  color: rgb(110, 110, 110);
-}
-h4:hover {
-  color: black;
-}
-#plus {
-  font-size: 18px;
-}
-
-.two {
-  margin-left: 16.2rem;
-}
-.three {
-  margin-left: 16.2rem;
-}
-.four {
-  margin-left: 15rem;
-}
-.five {
-  margin-left: 14.4rem;
-}
-.shop-h > div {
-  margin-left: 13.6rem;
-}
-.hide-shop {
-  display: none;
-}
-.services-h {
-  margin-top: 0.5rem;
-}
-.account-h {
-  margin-top: 0.5rem;
-}
-.store-h {
-  margin-top: 0.5rem;
-}
-.buss-h {
-  margin-top: 0.5rem;
-}
-#last-footer {
-  font-size: 15px;
-  margin-left: 1rem;
-}
-
-#copy-date {
-  display: flex;
-  justify-content: center;
-}
-#copy-link {
-  display: flex;
-  justify-content: center;
-}
-.foot-link {
-  text-decoration: none;
-  color: gray;
-  margin-bottom: 1rem;
-  border-bottom: 1px rgb(182, 182, 182) solid;
-}
-.active {
-  transition: all 0.3s ease;
-  transform: rotateZ(-45deg);
-}
-.trans {
-  transition: all 1s ease;
-  animation-duration: 0.3s;
-  animation-name: slidedown;
-}
-@keyframes slidedown {
-  from {
-    opacity: 0;
-    transform: translateY(-5rem);
+  #mobile-footer {
+    display: block;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+
+  #foot-nav {
+    display: block;
+    padding-left: 1rem;
+    line-height: 1.3rem;
+    list-style: none;
+    width: 100%;
+    border-bottom: 1.5px gray solid;
+  }
+  h4 {
+    display: flex;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    color: rgb(110, 110, 110);
+  }
+  h4:hover {
+    color: black;
+  }
+  #plus {
+    font-size: 18px;
+  }
+
+  .two {
+    margin-left: 16.2rem;
+  }
+  .three {
+    margin-left: 16.2rem;
+  }
+  .four {
+    margin-left: 15rem;
+  }
+  .five {
+    margin-left: 14.4rem;
+  }
+  .shop-h > div {
+    margin-left: 13.6rem;
+  }
+  .hide-shop {
+    display: none;
+  }
+  .services-h {
+    margin-top: 0.5rem;
+  }
+  .account-h {
+    margin-top: 0.5rem;
+  }
+  .store-h {
+    margin-top: 0.5rem;
+  }
+  .buss-h {
+    margin-top: 0.5rem;
+  }
+  #last-footer {
+    width: 21rem;
+    border: none;
+    font-size: 14px;
+    margin-left: 0rem;
+    padding-left: 0;
+  }
+  .copy {
+    width: 19.5rem;
+    display: flex;
+    margin-left: 2rem;
+    padding-right: 0;
+  }
+  #copy-date {
+    width: 10rem;
+    margin-left: 8rem;
+  }
+  #copy-link {
+    margin-left: 4.8rem;
+  }
+  .foot-link {
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 1rem;
+    border-bottom: 1px rgb(182, 182, 182) solid;
+  }
+  .active {
+    transition: all 0.3s ease;
+    transform: rotateZ(-45deg);
+  }
+  .trans {
+    transition: all 1s ease;
+    animation-duration: 0.3s;
+    animation-name: slidedown;
+  }
+  @keyframes slidedown {
+    from {
+      opacity: 0;
+      transform: translateY(-5rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
