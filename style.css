@@ -17,6 +17,46 @@
   font-size: 18px;
   position: relative;
 }
+.burger {
+  margin-left: -1rem;
+  cursor: pointer;
+  width: 40px;
+}
+.moved {
+  margin-top: -1.5rem;
+  margin-left: -1.5rem;
+  margin-right: 0.5rem;
+}
+.menu {
+  border: solid rgb(205, 205, 206);
+  width: 30px;
+  border-width: 0 0 2px 0;
+  display: block;
+  padding-top: 0.5rem;
+  margin-bottom: 6px;
+}
+.menu-2 {
+  border: solid rgb(205, 205, 206);
+  width: 35px;
+  border-width: 0 0 2px 0;
+  display: block;
+}
+.clicked-1 {
+  transition: all 0.2s ease;
+  display: inline-block;
+  margin-bottom: -0.9rem;
+  width: 25px;
+  -webkit-transform: rotate(-45deg) translateY(8px);
+  transform: rotate(-45deg) translateY(8px);
+}
+.clicked-2 {
+  transition: all 0.2s ease;
+  width: 25px;
+  margin-top: 17px;
+  margin-left: 2.5px;
+  -webkit-transform: rotate(45deg) translateY(-8px);
+  transform: rotate(45deg) translateY(-8px);
+}
 .logo {
   position: absolute;
   top: 10%;
@@ -581,11 +621,14 @@
     display: none;
   }
   .logo {
-    margin-left: 9rem;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    margin-left: 6.5rem;
   }
   .cart {
     position: absolute;
-    left: 85%;
+    left: 83%;
   }
   .ipad {
     display: block;
@@ -807,7 +850,6 @@
 }
 
 #foot-nav {
-  transition: all 1s ease;
   display: block;
   padding-left: 1rem;
   line-height: 1.3rem;
@@ -816,14 +858,36 @@
   border-bottom: 1.5px gray solid;
 }
 h4 {
+  display: flex;
   font-weight: 500;
   margin-bottom: 0.5rem;
   cursor: pointer;
+  color: rgb(110, 110, 110);
+}
+h4:hover {
+  color: black;
+}
+#plus {
+  font-size: 18px;
 }
 
+.two {
+  margin-left: 16.2rem;
+}
+.three {
+  margin-left: 16.2rem;
+}
+.four {
+  margin-left: 15rem;
+}
+.five {
+  margin-left: 14.4rem;
+}
+.shop-h > div {
+  margin-left: 13.6rem;
+}
 .hide-shop {
   display: none;
-  transition: all 1s ease;
 }
 .services-h {
   margin-top: 0.5rem;
@@ -841,8 +905,7 @@ h4 {
   font-size: 15px;
   margin-left: 1rem;
 }
-.copy {
-}
+
 #copy-date {
   display: flex;
   justify-content: center;
@@ -855,4 +918,24 @@ h4 {
   text-decoration: none;
   color: gray;
   margin-bottom: 1rem;
+  border-bottom: 1px rgb(182, 182, 182) solid;
+}
+.active {
+  transition: all 0.3s ease;
+  transform: rotateZ(-45deg);
+}
+.trans {
+  transition: all 1s ease;
+  animation-duration: 0.3s;
+  animation-name: slidedown;
+}
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
