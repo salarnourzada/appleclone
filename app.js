@@ -72,10 +72,14 @@ buss.addEventListener("click", () => {
 const burger = document.querySelector(".burger");
 const menuF = document.querySelector(".menu");
 const menuS = document.querySelector(".menu-2");
+const mobileMenu = document.querySelector(".mobile-menu");
+const logo = document.querySelector(".logo");
 burger.addEventListener("click", () => {
   menuF.classList.toggle("clicked");
   menuF.classList.toggle("clicked-1");
   menuS.classList.toggle("clicked");
   menuS.classList.toggle("clicked-2");
   burger.classList.toggle("moved");
+  mobileMenu.classList.toggle("show-menu");
+  logo.classList.toggle("bright");
 });
